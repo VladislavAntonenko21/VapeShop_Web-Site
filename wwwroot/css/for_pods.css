@@ -175,6 +175,45 @@ input.addtocart-button{
 .pod_price{
     padding-left: 10px;
 }
+
+/* pods category */
+.row{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    padding-top: 30px
+}
+
+.category{
+    float: left;
+    width: 33%;
+}
+
+.category-view .row .category .spacer .h2 {
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.category-view .row .category .spacer .h2 a{
+    color:black;
+}
+.category-view{
+    font-family: 'Montserrat';
+    margin-bottom: 25px;
+}
+.category-view .row .category .spacer .h2 a img{
+    display: block;
+    clear: both;
+    margin: auto;
+}
+
+@media screen and (max-width: 1920px) and (min-width: 1501px) {
+    .main_section{
+        padding-inline: 8vw;
+    }
+    
+}
 /* больше 1070 */
 @media screen and (min-width: 1070px) {
     .pod_card a.wk_link {
@@ -200,12 +239,14 @@ input.addtocart-button{
     .price_and_basket{
         margin-bottom: 0px;
     }
+    .main_section{
+        padding-inline: 3vw;
+    }
 }
 
 /* больше 885px */
 @media screen and (min-width: 885px) {
     .main_section{
-        padding-inline: 3vw;
         padding-top: 40px;
     }
     .list{ 
@@ -271,9 +312,14 @@ input.addtocart-button{
         width: 100%;
         float: right;
     }
+    .category-view{
+        float: left;
+        width: 100%;
+    }
 }
 /* когда меньше 800 */
 @media screen and (max-width: 800px){
+
     .list{
         text-align: center;
         display: flex;

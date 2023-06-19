@@ -2,6 +2,7 @@
     width: 100%;
     height: 100%;
 }
+
 .liquid_card{
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
     position: relative;
@@ -177,6 +178,9 @@ input.addtocart-button{
         top: 17px;
         right: 17px;
     }
+    .main_section{
+        padding-inline: 8vw;
+    }
 }
 /* меньше 1070 */
 @media screen and (max-width: 1070px) {
@@ -191,17 +195,21 @@ input.addtocart-button{
     .price_and_basket{
         margin-bottom: 5px;
     }
+    
 }
 @media screen and (max-width: 1300px) {
     .price_and_basket{
         margin-bottom: 0px;
     }
+    .main_section{
+        padding-inline: 3vw;
+    }   
 }
+
 
 /* больше 885px */
 @media screen and (min-width: 885px) {
     .main_section{
-        padding-inline: 3vw;
         padding-top: 40px;
     }
     .list{ 

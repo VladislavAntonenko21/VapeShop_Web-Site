@@ -324,6 +324,7 @@ input:focus {
         -moz-box-sizing: border-box;
         -webkit-box-sizing: border-box;
         box-sizing: border-box;
+        font-family: 'Montserrat';
     }
     .button-search{
         cursor: pointer;
@@ -500,7 +501,8 @@ input:focus {
         width: 25%;
     } */
     .search_middle_div{
-        /* width: 50%; */
+        width: 50%;
+        margin-top: 5vh;
         position: relative;
         display: block;
     }
@@ -571,8 +573,12 @@ input:focus {
     /* меню */
     
 }
-/* когда меньше 600 */
+
+/* когда меньше 800 */
 @media screen and (max-width: 800px){
+    .search_middle_div{
+        margin-top: 0;
+    }
     .user_list{
         text-align: center;
     }

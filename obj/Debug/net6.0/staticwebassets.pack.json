@@ -261,6 +261,42 @@
       "PackagePath": "staticwebassets\\icons\\pas.svg"
     },
     {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\icons\\pods_category_images\\eleaf-cat9_200x200_200x200.jpg",
+      "PackagePath": "staticwebassets\\icons\\pods_category_images\\eleaf-cat9_200x200_200x200.jpg"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\icons\\pods_category_images\\elf-bar-cat4_200x200.jpg",
+      "PackagePath": "staticwebassets\\icons\\pods_category_images\\elf-bar-cat4_200x200.jpg"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\icons\\pods_category_images\\geekvape-cat6_200x200_200x200.jpg",
+      "PackagePath": "staticwebassets\\icons\\pods_category_images\\geekvape-cat6_200x200_200x200.jpg"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\icons\\pods_category_images\\joyetech-cat_200x200_200x200.jpg",
+      "PackagePath": "staticwebassets\\icons\\pods_category_images\\joyetech-cat_200x200_200x200.jpg"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\icons\\pods_category_images\\justfog-cat_200x200_200x200.jpg",
+      "PackagePath": "staticwebassets\\icons\\pods_category_images\\justfog-cat_200x200_200x200.jpg"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\icons\\pods_category_images\\lostvape-cat_200x200.jpg",
+      "PackagePath": "staticwebassets\\icons\\pods_category_images\\lostvape-cat_200x200.jpg"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\icons\\pods_category_images\\smoant-cat_200x2004_200x200.jpg",
+      "PackagePath": "staticwebassets\\icons\\pods_category_images\\smoant-cat_200x2004_200x200.jpg"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\icons\\pods_category_images\\vaporesso-cat_200x2009_200x200.jpg",
+      "PackagePath": "staticwebassets\\icons\\pods_category_images\\vaporesso-cat_200x2009_200x200.jpg"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\icons\\pods_category_images\\voopoo-cat4_200x200.jpg",
+      "PackagePath": "staticwebassets\\icons\\pods_category_images\\voopoo-cat4_200x200.jpg"
+    },
+    {
       "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\icons\\settings.png",
       "PackagePath": "staticwebassets\\icons\\settings.png"
     },

@@ -130,25 +130,108 @@
             </a>
         </div>
     </div>
+
+    <div class="category-view">
+        <div class="row">
+            <div class="category">
+                <div class="spacer">
+                    <div class="h2"><a href="/pod-sistemy/pod-sistemy-voopoo.html" title="POD-системы Voopoo">
+                            POD-системы Voopoo 
+                            <img
+                                src="../icons/pods_category_images/voopoo-cat4_200x200.jpg"
+                                alt="POD-системы Voopoo" class="browseCategoryImage"></a></div>
+                </div>
+            </div>
+            <div class="category">
+                <div class="spacer">
+                    <div class="h2"><a href="/pod-sistemy/pod-sistemy-vaporesso.html" title="POD-системы Vaporesso">
+                            POD-системы Vaporesso <img
+                                src="../icons/pods_category_images/vaporesso-cat_200x2009_200x200.jpg"
+                                alt="POD-системы Vaporesso" class="browseCategoryImage"></a></div>
+                </div>
+            </div>
+            <div class="category">
+                <div class="spacer">
+                    <div class="h2"><a href="/pod-sistemy/pod-sistemy-smoant.html" title="POD-системы Smoant">
+                            POD-системы Smoant <img
+                                src="../icons/pods_category_images/smoant-cat_200x2004_200x200.jpg"
+                                alt="POD-системы Smoant" class="browseCategoryImage"></a></div>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="row">
+            <div class="category">
+                <div class="spacer">
+                    <div class="h2"><a href="/pod-sistemy/pod-sistemy-lost-vape.html" title="POD-системы Lost Vape">
+                            POD-системы Lost Vape <img
+                                src="../icons/pods_category_images/lostvape-cat_200x200.jpg"
+                                alt="POD-системы Lost Vape" class="browseCategoryImage"></a></div>
+                </div>
+            </div>
+            <div class="category">
+                <div class="spacer">
+                    <div class="h2"><a href="/pod-sistemy/pod-sistemy-justfog.html" title="POD-системы Justfog">
+                            POD-системы Justfog <img
+                                src="../icons/pods_category_images/justfog-cat_200x200_200x200.jpg"
+                                alt="POD-системы Justfog" class="browseCategoryImage"></a></div>
+                </div>
+            </div>
+            <div class="category">
+                <div class="spacer">
+                    <div class="h2"><a href="/pod-sistemy/pod-sistemy-joyetech.html" title="POD-системы Joyetech">
+                            POD-системы Joyetech <img
+                                src="../icons/pods_category_images/joyetech-cat_200x200_200x200.jpg"
+                                alt="POD-системы Joyetech" class="browseCategoryImage"></a></div>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="row">
+            <div class="category">
+                <div class="spacer">
+                    <div class="h2"><a href="/pod-sistemy/pod-sistemy-geekvape.html" title="POD-системы GeekVape">
+                            POD-системы GeekVape <img
+                                src="../icons/pods_category_images/geekvape-cat6_200x200_200x200.jpg"
+                                alt="POD-системы GeekVape" class="browseCategoryImage"></a></div>
+                </div>
+            </div>
+            <div class="category">
+                <div class="spacer">
+                    <div class="h2"><a href="/pod-sistemy/pod-sistemy-elf-bar.html" title="POD-системы Elf Bar">
+                            POD-системы Elf Bar <img
+                                src="../icons/pods_category_images/elf-bar-cat4_200x200.jpg"
+                                alt="POD-системы Elf Bar" class="browseCategoryImage"></a></div>
+                </div>
+            </div>
+            <div class="category">
+                <div class="spacer">
+                    <div class="h2"><a href="/pod-sistemy/pod-sistemy-eleaf.html" title="POD-системы Eleaf"> POD-системы
+                            Eleaf <img src="../icons/pods_category_images/eleaf-cat9_200x200_200x200.jpg"
+                                alt="POD-системы Eleaf" class="browseCategoryImage"></a></div>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+
     <div class="list">
         @{
             foreach (var pods in Model)
             {
                 <div class="pod_card">
                     <a class="link" href="#">
-                        <input type="hidden" name="pid" value="15728"><input type="hidden" name="Itemid" value="293"><a
-                            class="wk_link whishlist-notlogin" href="javascript:void(0)" title="Добавить в избранное"><span
-                                class="heart"><i class="far fa-heart fa-3x "></i></span></a>
+                        <input type="hidden" name="pid" value="15728"><input type="hidden" name="Itemid" value="293">
+                        <a class="wk_link whishlist-notlogin" href="javascript:void(0)" title="Добавить в избранное">
+                            <span class="heart"><i class="far fa-heart fa-3x "></i></span>
+                        </a>
 
                         <img src="../icons/liq_images/liquid.Img1_src" alt="NO_PHOTO">
 
                         <div class="liq_inf_div">
                             <h3 class="pod_name">@pods.Manufacturer @pods.Model</h3>
-                            @* <h5 class = "liquid_flavor">@liquid.flavor</h5> *@
-
-
-
                         </div>
+
                         <div class="price_and_basket">
                             <h3 class="liquid_price">@pods.Price p.</h3>
 
