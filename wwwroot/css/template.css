@@ -1,0 +1,762 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+.props{
+    font-family: Roboto;
+    font-size: 11px;
+    line-height: 13px;
+    color: #686363;
+    margin-bottom: 30px;
+    margin-top: 11px;
+}
+footer{
+    float: left;
+    background: #343434;
+    color: #fff;
+    padding: 40px 0px 60px 0px;
+}
+#footer a:hover {
+    text-decoration: underline;
+}
+.menu_icons{
+    vertical-align: middle;
+    height: 24px;
+}
+.nav_menu li a span{
+    transition: 0.2s all ease;
+}
+.nav_menu li a span:hover{
+    color: #f7941e;
+}
+input:focus {
+    background-color:#fff;
+    outline: none !important;
+}
+.mobile_left_menu{
+    display: none;
+    overflow: hidden;
+    transition: all 0.2s ease!important;
+}
+.logo_middle_div{
+    width: 25%;
+    
+    font-family: 'Montserrat';
+    font-weight: 700;
+    text-align: center;
+}
+.logo_middle_div a{
+    color: #fff;
+    font-size: x-large;
+    transition: ease .3s;
+}
+.logo_middle_div >a:hover{
+    transform: scale(1.23);
+}
+.basket_middle_div{
+    text-align: center;
+    font-family: 'Montserrat';
+}
+.basket_middle_div a{
+    color:#fff;
+}
+.logo_middle_div a, .basket_middle_div a{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.logo_and_serch_div_inner{
+    height: 100%;
+}
+.search_middle_div input{
+    float: left;
+}
+
+/* Accont */
+.account_but{
+    cursor: pointer;
+}
+.account_drop_menu{
+    width: 180px;
+    height: 0px;
+    background-color: #fff;
+    overflow: hidden;
+    position: absolute;
+    display: block;
+    top: calc(5% + 24px);
+    transition: all 0.3s ease!important;
+    z-index: 45;
+    
+}
+.account_drop_menu >li> a{
+    text-align: left;
+    width: 100%;
+    display: block;
+    padding: 10px 10px 10px 15px;
+    text-transform: capitalize;
+    color: inherit;
+    color: #343434;
+}
+.account_drop_menu li{
+    display: list-item;
+    font-size: 12px;
+    line-height: 16px;
+}
+.account_but::after{
+    content: '\f078';
+    width: 12px;
+    height: 12px;
+    font-size: 11px;
+    display: inline-block;
+    margin-left: 3px;
+    font-family: fontawesome;
+    line-height: 16px;
+}
+/* Accont */
+
+
+/* больше 885px */
+@media screen and (min-width: 885px) {
+    main{
+        height: 200vh;
+    }
+
+    .mobile_head_div{
+        display: none;
+    }
+    /* .mobile_left_menu{
+        display: none;
+    } */
+    .contact_info{
+        background-color: #01b8a3;
+        padding: 4vh;
+    }
+    .contact_info_inner{
+        display: flex;
+        justify-content: space-between;
+    }
+    .contact_list>li, .user_list>li{
+        color: white;
+        margin-inline: 3vh;
+        margin-bottom: 1.2vh;
+        display: inline-block;
+        font-family: 'Montserrat';
+        font-size: 1.8vh;
+    }
+    .contact_list>li> a, .user_list > li > a{
+        color: white;
+        transition: .3s all ease;
+    }
+    .contact_list li a:hover, .user_list li a:hover{
+        color: black;
+    }
+
+    .welcome a{
+        font-family: 'Montserrat';
+        color:white;
+        font-size:2vh;
+    }
+    /* bottom меню */
+    .nav_menu{
+        position: relative;
+        z-index: 444;
+        display: block;
+        padding: 3vh;
+        box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+        text-align: center;
+    }
+    .nav_menu li{
+        margin-inline: 4vh;
+        display: inline-block;
+    }
+    .nav_menu li a{
+        font-family: 'Montserrat';
+        font-size: 2.3vh;
+        font-weight: 500;
+    }
+    .nav_menu li a span{
+        /* letter-spacing: 1px; */
+        line-height: 18px;
+        color: #343434;
+        padding-left: 5px;
+        vertical-align: middle;
+    }
+    /* меню */
+    footer{
+        height: 75vh;
+    }
+    #footer a {
+        color: #ffffff;
+        padding: 5px 5px 5px 0;
+        font-family: 'Montserrat';
+    }
+    
+    #footer{
+        padding-inline: 6vh;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .footer_link{
+        width: 35%;
+    }
+    .infomenu, .prodmenu, .contactmenu {
+        font-size: 18px;
+        line-height: 22px;
+        padding-bottom: 12px;
+        color: #C4C4C4;
+        font-family: 'Montserrat';
+    }
+    #infomenu li, #prodmenu li{
+        padding: 5px 10px 5px 0;
+        font-size: 15px;
+    }
+    .footer-phone_txt{
+        font-size: 11px;
+        line-height: 13px;
+        color: #686363;
+        font-family: 'Montserrat';
+    }
+    #footer .custom.footer3>.footer-phone_link:last-of-type a {
+        font-size: 11px;
+        line-height: 13px;
+        color: #F11117;
+        padding: 9px 12px;
+        display: inline-block;
+        border: 1px solid #F11117;
+        font-weight: 500;
+    }
+    .footer-phone_link{
+        margin-top: 20px;
+    }
+    .contactmenu {
+        font-size: 18px;
+        line-height: 22px;
+        padding-bottom: 12px;
+        color: #C4C4C4;
+    }
+    .footer-phone_item {
+        margin-bottom: 15px;
+    }
+    .footer-phone_item .footer-phone a {
+        font-size: 13px;
+        line-height: 16px;
+    }
+    .icon{
+        width: 2.3vh;
+        color: white;
+        margin-right: 0.7vh;
+        vertical-align: bottom;
+    }
+    .footer_inf{
+        width: 25%;
+    }
+    .footer_prod{
+        width: 25%;
+    }
+    .footer_contact{
+        width: 16%;
+    }
+    .footer_link{
+        width: 33%;
+    }
+    .payment img {
+        padding-right: 4px;
+        display: inline-block;
+        vertical-align: middle;
+        float: none;
+    }
+    /* .payment{
+        display: block;
+    } */
+    /* middle */
+    #search{
+        display: inline-block;
+        margin-top: 5vh;
+    }
+    .logo_and_serch_div_inner{
+        display: flex;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .logo_and_serch_div{
+
+        justify-content: space-between;
+        height:15vh;
+        background-color: black;
+    }
+    /* .logo_middle_div{
+        width: 25%;
+    } */
+    .search_middle_div{
+        width: 50%;
+        position: relative;
+        display: block;
+    }
+    .basket_middle_div{
+        width: 25%;
+    }
+    .search_input{
+        width: 84.5%;
+        color: #343434;
+        display: block;
+        margin: 0;
+        font-size: 12px;
+        line-height: 22px;
+        padding: 12px 20px;
+        border: 0;
+        background: #fff;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        border-radius: 0;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    .button-search{
+        cursor: pointer;
+        font-family: 'Montserrat';
+        width: 15.5%;
+        float: right;
+        font-size: 18px;
+        line-height: 14px;
+        font-weight: 500;
+        padding: 6px;
+        text-transform: none;
+        height: 46px;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        border-radius: 0;
+        border: none;
+        font-size: 12px;
+        transition: .3s all ease;
+        background: #01b8a3;
+        color: #fff;
+    }
+    .button-search:hover{
+        background-color: #f7941e; 
+    }
+    /* middle */
+}
+
+/* менее 1000px */
+@media screen and (max-width: 1250px) {
+    .welcome{
+        display: none;   
+    }
+}
+
+/* Когда меньше 885 */
+@media screen /*and (min-width: 600px)*/ and (max-width: 885px) { 
+    main{
+        min-height: 100vh;
+    }
+    .mobile_head_div{
+        display: none;
+    }
+    .mobile_head_menu{
+        color:#fff;
+    }
+    .contact_info{
+        background-color: #01b8a3;
+        padding: 4vh;
+    }
+    .contact_info_inner{
+        vertical-align: middle;
+        display: flex;
+        justify-content: space-between;
+    }
+    .contact_list li, .user_list li{
+        color: white;
+        margin-inline: 1vh;
+        margin-bottom: 1.2vh;
+        display: inline-flex;
+        font-family: 'Montserrat';
+        font-size: 1.8vh;
+    }
+    .contact_list >li> a, .user_list >li> a{
+        
+        color: white;
+        transition: .3s all ease;
+    }
+    .contact_list li a:hover, .user_list li a:hover{
+        color: black;
+    }
+    .count_of_items{
+        font-family: 'Montserrat';
+        font-size:1.7vh;
+        font-weight: 600;
+    }
+    #basket{
+        margin-right: 1.7vh;
+    }
+    
+    #footer a {
+        color: #ffffff;
+        font-family: 'Montserrat';
+    }
+    #footer{
+        padding-inline: 15px;
+    }
+    .infomenu, .prodmenu, .contactmenu {
+        cursor: pointer;
+        font-size: 18px;
+        line-height: 22px;
+        padding-bottom: 12px;
+        padding-top: 12px;
+        color: #C4C4C4;
+        font-family: 'Montserrat';
+    }
+    .footer_inf, .footer_prod, .footer_contact{
+        border-bottom: 1px solid rgba(236, 236, 236, 0.3);
+    }
+    
+    #infomenu li, #prodmenu li{
+        padding: 5px 10px 5px 0;
+        font-size: 15px;
+    }
+    .footer-phone_txt{
+        
+        font-size: 11px;
+        line-height: 13px;
+        color: #686363;
+        font-family: 'Montserrat';
+    }
+    #footer .custom.footer3>.footer-phone_link:last-of-type a {
+        font-size: 11px;
+        line-height: 13px;
+        color: #F11117;
+        padding: 9px 12px;
+        display: inline-block;
+        border: 1px solid #F11117;
+        font-weight: 500;
+    }
+    .footer-phone_link{
+        margin-top: 20px;
+    }
+    .contactmenu {
+        font-size: 18px;
+        line-height: 22px;
+        padding-bottom: 12px;
+        color: #C4C4C4;
+    }
+    .footer-phone_item {
+        margin-bottom: 15px;
+    }
+    .footer-phone_item .footer-phone a {
+        font-size: 13px;
+        line-height: 16px;
+    }
+    .footer_navig_menu, .footer3{
+        display: none;
+        margin-bottom: 3vh;
+    }
+    .icon{
+        width: 2.3vh;
+        color: white;
+        margin-right: 1vh;
+    }
+    .footer_link{
+        padding-top: 2vh;
+    }
+    .payment img {
+        padding-right: 4px;
+        display: inline-block;
+        vertical-align: middle;
+        float: none;
+    }
+    /* middle */
+    /* #search{
+        width: 50%;
+        margin-top: 5vh;
+    } */
+    .logo_and_serch_div{
+        /* display: flex; */
+
+        justify-content: space-between;
+        height:15vh;
+        background-color: black;
+    }
+    .logo_and_serch_div_inner{
+        display: flex;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    /* .logo_middle_div{
+        width: 25%;
+    } */
+    .search_middle_div{
+        /* width: 50%; */
+        position: relative;
+        display: block;
+    }
+    .basket_middle_div{
+        width: 16%;
+    }
+    input{
+        width: 84.5%;
+        color: #343434;
+        display: block;
+        margin: 0;
+        font-size: 12px;
+        line-height: 22px;
+        padding: 12px 20px;
+        border: 0;
+        background: #fff;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        border-radius: 0;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    .button-search{
+        cursor: pointer;
+        font-family: 'Montserrat';
+        width: 15.5%;
+        float: right;
+        font-size: 18px;
+        line-height: 14px;
+        font-weight: 500;
+        padding: 6px;
+        text-transform: none;
+        height: 46px;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        border-radius: 0;
+        border: none;
+        font-size: 12px;
+        transition: .3s all ease;
+        background: #01b8a3;
+        color: #fff;
+    }
+    .button-search:hover{
+        background-color: #f7941e; 
+    }
+    /* middle */
+    /* меню */
+    .nav_menu{
+        padding: 2vh;
+        box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+        display: inline-block;
+        text-align: center;
+    }
+    .nav_menu li{
+        margin-inline: 3vw;
+        display: inline-block;
+    }
+    
+    .nav_menu li a span{
+        font-weight: 500;
+        font-family: 'Montserrat';
+        line-height: 18px;
+        color: #343434;
+        padding-left: 5px;
+        vertical-align: middle;
+    }
+    /* меню */
+    
+}
+/* когда меньше 600 */
+@media screen and (max-width: 800px){
+    .user_list{
+        text-align: center;
+    }
+    .contact_info{
+        z-index: 2;
+        padding: 0;
+    }
+    .mobile_head_div{
+        padding: 1.5vh;
+        display: block;
+        height: 56px;
+        background-color: #01b8a3;
+        /* border-bottom: 0.2px solid #C4C4C4; */
+        z-index: 10000;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;   
+    }
+    .nav_menu{
+        display: none;
+    }
+    .contact_info{
+        padding-top: 56px;
+    }
+    .contact_info_inner{
+        padding: 1.5vh;
+        display: block;
+        text-align: center;
+    }
+    .welcome{
+        display: block;
+        margin-block: 1vh;
+    }
+    .welcome a{
+        font-size: 1.7vh;
+        color: white;
+        font-family: 'Montserrat';
+
+    }
+    
+    .mobile_head_menu{
+        display: inline-block;
+        vertical-align: middle;
+    }
+    
+    .icon{
+        width: 2.3vh;
+        height: 2.3vh;
+        color: white;
+        margin-right: 1vh;
+    }
+
+
+    /* три полоски */
+    #mobile_head_menu.open_menu{
+        vertical-align: middle;
+
+    }
+    .container {
+        display: inline-block;
+        cursor: pointer;
+        vertical-align: middle;
+
+    }
+    .bar1, .bar2, .bar3 {
+        width: 25px;
+        border-radius: 34px;
+        height: 5px;
+        background-color: #fff;
+        margin: 4px 0;
+        transition: 0.4s;
+    }
+    .change .bar1 {
+        -webkit-transform: rotate(-45deg) translate(-10px, 3px);
+        transform: rotate(-45deg) translate(-10px, 3px);
+    }
+    .change .bar2 {opacity: 0;}
+    .change .bar3 {
+        -webkit-transform: rotate(45deg) translate(-10px, -2px);
+        transform: rotate(45deg) translate(-9px, -2px);
+    }
+    /* три полоски */
+
+    #name_of h2 a{
+        color:#fff;
+        font-family: 'Montserrat';
+        font-size: 2.7vh;
+        /* vertical-align: middle; */
+        transition: ease .3s;
+    }
+    
+      
+    
+      
+    
+    #settings, #basket{
+        float: right;
+    }
+    #settings a img, #basket a img{
+        /* float: right; */
+        vertical-align: middle;
+    }
+    .head_icons{
+        width: 36px;
+    }
+
+    /* меню слева */
+    .mobile_left_menu{
+        padding-top: 56px;
+        display: block;
+        position: fixed;
+        width: 0px;
+        background-color: #fff;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        z-index: 999;
+        text-align: left;
+        -moz-transition: 0.3s all ease;
+        -o-transition: 0.3s all ease;
+        -webkit-transition: 0.3s all ease;
+        transition: 0.3s all ease; 
+    }
+    .mobile_left_menu ul li{
+        display: list-item;
+        vertical-align: middle;
+        text-align: -webkit-match-parent;
+        
+    }
+    .mobile_left_menu li a{
+        display: block;
+        padding: 14px 45px 16px 15px;
+        color: #777;
+        font-family: 'Montserrat';
+    }
+    .mobile_left_menu li a span{
+        margin-left: 1.5vh;
+    }
+    /* меню слева */
+
+    /* название */
+    .count_of_items{
+        color: #fff;
+    }
+    /* название */
+    /* middle */
+    .logo_and_serch_div{
+        height: 35vh;
+    }
+    .logo_and_serch_div_inner{
+        display: block;
+    }
+    .basket_middle_div{
+        display: none;
+    }
+    .logo_middle_div{
+        height: 50%;
+        width: 100%;
+        float: none;      
+        text-align: center;  
+    }
+    .button-search{
+        float: left;
+        width: 100%;
+    }
+    #search{
+        width: 100%;
+        display: block;
+        /* margin-top: 5vh; */
+    }
+    input{
+        width: 100%;
+    }
+    /* middle */
+    .account_drop_menu {
+        text-align: left;
+        top: calc(17% + 24px);
+    }
+    
+}
+/* когда меньше 600 */
+@media screen and (max-width: 650px){
+    .account_drop_menu {
+        top: calc(21% + 24px);
+    }
+}

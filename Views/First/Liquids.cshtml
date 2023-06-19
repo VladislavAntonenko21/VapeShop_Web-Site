@@ -1,0 +1,145 @@
+﻿@using VapeShopWebSite.Models;
+@model IEnumerable<LiquidsModel>
+
+@{
+    ViewData["Title"] = "Cloud Store - Жидкости";
+}
+<link rel="stylesheet" href="~/css/for_liquids.css">
+<script src="../js/liq.js" defer></script>
+
+<div class="main_section">
+    <div class="filters">
+        <div class="filters_inner">
+
+            <div class="outer">
+                <div class="price_filter" id="open_filter">
+                    <p class="pointer_close" id="da">Цена</p>
+                </div>
+                <div class="price_inner">
+                    <input class="price_range_input" type="range">
+                </div>
+            </div>
+
+
+            <div class="outer">
+                <div class="instock_filter" id="open_filter">
+                    <p class="pointer_close">В наличии</p>
+                </div>
+                <div class="instock_inner">
+
+                </div>
+            </div>
+
+            <div class="outer">
+                <div class="brand_filter" id="open_filter">
+                    <p class="pointer_close">Производители</p>
+                </div>
+                <div class="brand_inner">
+
+                </div>
+            </div>
+
+            <div class="outer">
+                <div class="instock_city_filter" id="open_filter">
+                    <p class="pointer_close">Наличие</p>
+                </div>
+                <div class="instock_city_inner">
+
+                </div>
+            </div>
+
+            <div class="outer">
+                <div class="type_filter" id="open_filter">
+                    <p class="pointer_close">Тип вкуса жидкости</p>
+                </div>
+                <div class="type_inner">
+
+                </div>
+            </div>
+
+            <div class="outer">
+                <div class="pgvg_filter" id="open_filter">
+                    <p class="pointer_close">PG/VG</p>
+                </div>
+                <div class="pgvg_inner">
+
+                </div>
+            </div>
+
+            <div class="outer">
+                <div class="how_match_salt_filter" id="open_filter">
+                    <p class="pointer_close">Крепость жидкости</p>
+                </div>
+                <div class="how_match_salt_inner">
+
+                </div>
+            </div>
+
+            <div class="outer">
+                <div class="whatnic_filter" id="open_filter">
+                    <p class="pointer_close">Никотин</p>
+                </div>
+                <div class="whatnic_inner">
+
+                </div>
+            </div>
+
+            <div class="outer">
+                <div class="volume_filter" id="open_filter">
+                    <p class="pointer_close">Объем жидкости</p>
+                </div>
+                <div class="volume_inner">
+
+                </div>
+            </div>
+
+        </div>
+
+        <div class="button_box">
+            <input type="submit" class="apply_button" id="cf_apply_button_175" value="Применить">
+            <a class="cf_resetAll_link" rel="nofollow" data-module-id="175"
+                href="/index.php?option=com_customfilters&amp;view=products&amp;Itemid=366&amp;virtuemart_category_id[0]=4">
+                <span class="cf_resetAll_label">Сбросить</span>
+            </a>
+        </div>
+    </div>
+    <div class="list">
+        @{
+            foreach (var liquid in Model)
+            {
+                <div class="liquid_card">
+                        
+                    <input type="hidden" name="pid" value="15728"><input type="hidden" name="Itemid" value="293"><a
+                        class="wk_link whishlist-notlogin" href="javascript:void(0)" title="Добавить в избранное"><span
+                            class="heart"><i class="far fa-heart fa-3x "></i></span></a>
+
+                    <img src="../icons/liq_images/@liquid.Img1_src" alt="NO_PHOTO">
+
+                    <div class="liq_inf_div">
+                        <h3 class="liquid_name">Жидкость для вейпа @liquid.brand @liquid.line - @liquid.flavor</h3>
+                        @* <h5 class = "liquid_flavor">@liquid.flavor</h5> *@
+
+                        
+
+                    </div>
+                    <div class="price_and_basket">
+                            <h3 class="liquid_price">@liquid.price p.</h3>
+
+                            <form method="post" class="product" action="#" autocomplete="off">
+                                <div class="addtocart-bar"><span class="addtocart-button"><a class="addtocart-button-readmore"
+                                            href="/zhidkosti/zhidkost-dlya-vejpa-truevape-6.html" style=""><input
+                                                class="addtocart-button" title="Подробнее"></a></span><input type="hidden"
+                                        name="virtuemart_product_id[]" value="15728"><noscript><input type="hidden" name="task"
+                                            value="add" /></noscript>
+                                </div>
+
+                            </form>
+                    </div>
+
+                </div>
+            }
+        }
+    </div>
+
+
+</div>

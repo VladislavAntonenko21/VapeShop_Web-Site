@@ -1,0 +1,557 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\css\\for_accessories.css",
+      "PackagePath": "staticwebassets\\css\\for_accessories.css"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\css\\for_authorization.css",
+      "PackagePath": "staticwebassets\\css\\for_authorization.css"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\css\\for_hookah.css",
+      "PackagePath": "staticwebassets\\css\\for_hookah.css"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\css\\for_liquids.css",
+      "PackagePath": "staticwebassets\\css\\for_liquids.css"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\css\\for_main.css",
+      "PackagePath": "staticwebassets\\css\\for_main.css"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\css\\for_oneuse.css",
+      "PackagePath": "staticwebassets\\css\\for_oneuse.css"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\css\\for_pixl.css",
+      "PackagePath": "staticwebassets\\css\\for_pixl.css"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\css\\for_pods.css",
+      "PackagePath": "staticwebassets\\css\\for_pods.css"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\css\\for_vape.css",
+      "PackagePath": "staticwebassets\\css\\for_vape.css"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\css\\main_slider.css",
+      "PackagePath": "staticwebassets\\css\\main_slider.css"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\css\\normalize.css",
+      "PackagePath": "staticwebassets\\css\\normalize.css"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\css\\template.css",
+      "PackagePath": "staticwebassets\\css\\template.css"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\icons\\addcart.svg",
+      "PackagePath": "staticwebassets\\icons\\addcart.svg"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\icons\\basket.png",
+      "PackagePath": "staticwebassets\\icons\\basket.png"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\icons\\benefits_images\\first_ben.svg",
+      "PackagePath": "staticwebassets\\icons\\benefits_images\\first_ben.svg"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\icons\\benefits_images\\fivth_ben.svg",
+      "PackagePath": "staticwebassets\\icons\\benefits_images\\fivth_ben.svg"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\icons\\benefits_images\\fourth_ben.svg",
+      "PackagePath": "staticwebassets\\icons\\benefits_images\\fourth_ben.svg"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\icons\\benefits_images\\second_ben.svg",
+      "PackagePath": "staticwebassets\\icons\\benefits_images\\second_ben.svg"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\icons\\benefits_images\\six_ben.svg",
+      "PackagePath": "staticwebassets\\icons\\benefits_images\\six_ben.svg"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\icons\\benefits_images\\third_ben.svg",
+      "PackagePath": "staticwebassets\\icons\\benefits_images\\third_ben.svg"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\icons\\benefits_images\\vybor1.jpg",
+      "PackagePath": "staticwebassets\\icons\\benefits_images\\vybor1.jpg"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\icons\\benefits_images\\vybor2.jpg",
+      "PackagePath": "staticwebassets\\icons\\benefits_images\\vybor2.jpg"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\icons\\benefits_images\\vybor3.jpg",
+      "PackagePath": "staticwebassets\\icons\\benefits_images\\vybor3.jpg"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\icons\\clock.png",
+      "PackagePath": "staticwebassets\\icons\\clock.png"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\icons\\expresspay-logo.png",
+      "PackagePath": "staticwebassets\\icons\\expresspay-logo.png"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\icons\\filter_icons\\down_str.svg",
+      "PackagePath": "staticwebassets\\icons\\filter_icons\\down_str.svg"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\icons\\filter_icons\\up_str.svg",
+      "PackagePath": "staticwebassets\\icons\\filter_icons\\up_str.svg"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\icons\\halva.svg",
+      "PackagePath": "staticwebassets\\icons\\halva.svg"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\icons\\icon-faceb.svg",
+      "PackagePath": "staticwebassets\\icons\\icon-faceb.svg"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\icons\\icon-insta.svg",
+      "PackagePath": "staticwebassets\\icons\\icon-insta.svg"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\icons\\icon-odnkl.svg",
+      "PackagePath": "staticwebassets\\icons\\icon-odnkl.svg"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\icons\\icon-tg.svg",
+      "PackagePath": "staticwebassets\\icons\\icon-tg.svg"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\icons\\icon-ttok.svg",
+      "PackagePath": "staticwebassets\\icons\\icon-ttok.svg"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\icons\\icon-twi.svg",
+      "PackagePath": "staticwebassets\\icons\\icon-twi.svg"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\icons\\icon-vk.svg",
+      "PackagePath": "staticwebassets\\icons\\icon-vk.svg"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\icons\\icon-yout.svg",
+      "PackagePath": "staticwebassets\\icons\\icon-yout.svg"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\icons\\icon_vk.png",
+      "PackagePath": "staticwebassets\\icons\\icon_vk.png"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\icons\\k.svg",
+      "PackagePath": "staticwebassets\\icons\\k.svg"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\icons\\liq_images\\Blast-Malasian-Double-Cold-5-1.jpg",
+      "PackagePath": "staticwebassets\\icons\\liq_images\\Blast-Malasian-Double-Cold-5-1.jpg"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\icons\\liq_images\\Freeze-Breeze-Shock-Yellow-Fire-1.jpg",
+      "PackagePath": "staticwebassets\\icons\\liq_images\\Freeze-Breeze-Shock-Yellow-Fire-1.jpg"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\icons\\liq_images\\Freeze-Breeze-Shock-Yellow-Fire-2.jpg",
+      "PackagePath": "staticwebassets\\icons\\liq_images\\Freeze-Breeze-Shock-Yellow-Fire-2.jpg"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\icons\\liq_images\\Freeze-Breeze-Shock-Yellow-Fire-3.jpg",
+      "PackagePath": "staticwebassets\\icons\\liq_images\\Freeze-Breeze-Shock-Yellow-Fire-3.jpg"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\icons\\liq_images\\Freeze-Breeze-Yellow-Fire-1.jpg",
+      "PackagePath": "staticwebassets\\icons\\liq_images\\Freeze-Breeze-Yellow-Fire-1.jpg"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\icons\\liq_images\\Freeze-Breeze-Yellow-Fire-2.jpg",
+      "PackagePath": "staticwebassets\\icons\\liq_images\\Freeze-Breeze-Yellow-Fire-2.jpg"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\icons\\liq_images\\Freeze-Breeze-Yellow-Fire-3.jpg",
+      "PackagePath": "staticwebassets\\icons\\liq_images\\Freeze-Breeze-Yellow-Fire-3.jpg"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\icons\\liq_images\\INDO_SOR_Acid_Trip.jpg",
+      "PackagePath": "staticwebassets\\icons\\liq_images\\INDO_SOR_Acid_Trip.jpg"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\icons\\liq_images\\Malasian-Double-Cold-5-2.jpg",
+      "PackagePath": "staticwebassets\\icons\\liq_images\\Malasian-Double-Cold-5-2.jpg"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\icons\\liq_images\\Malasian-Double-Cold-5-3.jpg",
+      "PackagePath": "staticwebassets\\icons\\liq_images\\Malasian-Double-Cold-5-3.jpg"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\icons\\liq_images\\freeze-breeze-blizzard-green-taboo-1.jpg",
+      "PackagePath": "staticwebassets\\icons\\liq_images\\freeze-breeze-blizzard-green-taboo-1.jpg"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\icons\\liq_images\\freeze-breeze-blizzard-green-taboo-2.jpg",
+      "PackagePath": "staticwebassets\\icons\\liq_images\\freeze-breeze-blizzard-green-taboo-2.jpg"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\icons\\liq_images\\freeze-breeze-blizzard-green-taboo-3.jpg",
+      "PackagePath": "staticwebassets\\icons\\liq_images\\freeze-breeze-blizzard-green-taboo-3.jpg"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\icons\\liq_images\\mishka-v2-12-1.jpg",
+      "PackagePath": "staticwebassets\\icons\\liq_images\\mishka-v2-12-1.jpg"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\icons\\liq_images\\mishka-v2-12-2.jpg",
+      "PackagePath": "staticwebassets\\icons\\liq_images\\mishka-v2-12-2.jpg"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\icons\\liq_images\\mishka-v2-12-3.jpg",
+      "PackagePath": "staticwebassets\\icons\\liq_images\\mishka-v2-12-3.jpg"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\icons\\master.svg",
+      "PackagePath": "staticwebassets\\icons\\master.svg"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\icons\\menu-jidkost.svg",
+      "PackagePath": "staticwebassets\\icons\\menu-jidkost.svg"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\icons\\menu-kalyan.svg",
+      "PackagePath": "staticwebassets\\icons\\menu-kalyan.svg"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\icons\\menu-odnor.svg",
+      "PackagePath": "staticwebassets\\icons\\menu-odnor.svg"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\icons\\menu-parogenerator.png",
+      "PackagePath": "staticwebassets\\icons\\menu-parogenerator.png"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\icons\\menu-pixl.svg",
+      "PackagePath": "staticwebassets\\icons\\menu-pixl.svg"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\icons\\menu-pod-sistemy.svg",
+      "PackagePath": "staticwebassets\\icons\\menu-pod-sistemy.svg"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\icons\\menu-zapchasti.svg",
+      "PackagePath": "staticwebassets\\icons\\menu-zapchasti.svg"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\icons\\pas.svg",
+      "PackagePath": "staticwebassets\\icons\\pas.svg"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\icons\\settings.png",
+      "PackagePath": "staticwebassets\\icons\\settings.png"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\icons\\slider_img\\birthday.jpg",
+      "PackagePath": "staticwebassets\\icons\\slider_img\\birthday.jpg"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\icons\\slider_img\\discount.jpg",
+      "PackagePath": "staticwebassets\\icons\\slider_img\\discount.jpg"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\icons\\slider_img\\kalik.jpg",
+      "PackagePath": "staticwebassets\\icons\\slider_img\\kalik.jpg"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\icons\\slider_img\\ugol.jpg",
+      "PackagePath": "staticwebassets\\icons\\slider_img\\ugol.jpg"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\icons\\telephone.png",
+      "PackagePath": "staticwebassets\\icons\\telephone.png"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\icons\\vape.png",
+      "PackagePath": "staticwebassets\\icons\\vape.png"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\icons\\visa.svg",
+      "PackagePath": "staticwebassets\\icons\\visa.svg"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\js\\liq.js",
+      "PackagePath": "staticwebassets\\js\\liq.js"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\js\\main_slider.js",
+      "PackagePath": "staticwebassets\\js\\main_slider.js"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\js\\scripts.js",
+      "PackagePath": "staticwebassets\\js\\scripts.js"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\Programm\\C# Project\\VapeShopWebSite\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.VapeShopWebSite.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.VapeShopWebSite.props",
+      "PackagePath": "build\\VapeShopWebSite.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.VapeShopWebSite.props",
+      "PackagePath": "buildMultiTargeting\\VapeShopWebSite.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.VapeShopWebSite.props",
+      "PackagePath": "buildTransitive\\VapeShopWebSite.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

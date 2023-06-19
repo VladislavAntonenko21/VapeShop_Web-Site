@@ -1,0 +1,258 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+    <link rel="stylesheet" href="~/css/normalize.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="~/css/template.css">
+    <script src="/js/scripts.js" defer></script>
+    <link rel="stylesheet" href="https://fonts.fontstorage.com/import/montserrat.css" type="text/css" />
+    <script src="https://kit.fontawesome.com/bb20959230.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+
+    @*<link rel="stylesheet" href="fonts/blender_pro/style.css" type="text/css" />
+    <link rel="stylesheet" href="fonts/blender_pro_bold/style.css" type="text/css" />
+    <link rel="stylesheet" href="fonts/BlenderPro-Heavy/style.css" type="text/css" />*@
+
+    <!-- <link rel="stylesheet" href="fonts/Monsterat/montserrat.css"  type="text/css"/> -->
+
+    <title>@ViewBag.Title</title>
+</head>
+
+<body>
+    <header>
+        <div class="mobile_head_div">
+            <!-- три полоски -->
+            <div class="mobile_head_menu" id="open_menu">
+                <div class="container" onclick="myFunction(this)">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
+            </div>
+
+            <!-- название -->
+            <div class="mobile_head_menu">
+                <div id="name_of">
+                    <h2><a href="../First/Index">Cloud Store</a></h2>
+                </div>
+            </div>
+
+            <!-- настройки -->
+            <div class="mobile_head_menu" id="settings">
+                <a href=""><img class="head_icons" src="../icons/settings.png"></a>
+            </div>
+
+            <!-- корзина -->
+            <div class="mobile_head_menu" id="basket">
+                <a href="" class="count_of_items"><img class="head_icons" src="../icons/basket.png">0</a>
+            </div>
+        </div>
+
+        <!-- выпадающее меню слева -->
+        <div class="mobile_left_menu">
+            <ul>
+                @*Ура!!!!!!!!!!!!! Переход на иную страницу!*@
+                <li><a href="../First/Liquids"><img class="menu_icons"
+                            src="../icons/menu-jidkost.svg"><span>Жидкости</span></a></li>
+                <li><a href="../First/Pods"><img class="menu_icons"
+                            src="../icons/menu-pod-sistemy.svg"><span>POD</span></a></li>
+                <li><a href="../First/Oneuse"><img class="menu_icons"
+                            src="../icons/menu-odnor.svg"><span>Одноразки</span></a></li>
+                <li><a href="../First/Vape"><img class="menu_icons"
+                            src="../icons/menu-parogenerator.png"><span>Вейпы</span></a></li>
+                <li><a href="../First/Pixl"><img class="menu_icons" src="../icons/menu-pixl.svg"><span>PIXL</span></a>
+                </li>
+                <li><a href="../First/Accessories"><img class="menu_icons"
+                            src="../icons/menu-zapchasti.svg"><span>Комплектующие</span></a></li>
+                <li><a href="../First/Hookah"><img class="menu_icons"
+                            src="../icons/menu-kalyan.svg"><span>Кальян</span></a></li>
+            </ul>
+        </div>
+
+
+        <div class="contact_info">
+            <div class="contact_info_inner">
+
+                <ul class="contact_list">
+                    <li><img class="icon" id="tel" src="../icons/telephone.png"><span>Телефоны:</span><a
+                            href="callto:+375(33)679-72-70"> +375 (33) 679-72-70;</a> <a
+                            href="callto:+375(33)679-72-70">+375 (33) 679-72-70</a></li>
+                    <li><img class="icon" id="tel" src="../icons/clock.png"><span>Мы открыты: </span><a href=""> Пн-Сб:
+                            9:00-20:00</a></li>
+                </ul>
+
+                <ul class="welcome">
+                    <li><a href="">Добро пожаловать в мир вейпинга!</a></li>
+                </ul>
+
+                <ul class="user_list">
+
+                    <li>Сравнение(0) </li>
+                    <li><a class="account_but">Аккаунт</a>
+                        <ul class="account_drop_menu">
+                            <li><a href="../First/Authorization">Регистрация</a></li>
+                            <li><a href="">Корзина</a></li>
+                            <li><a href="">Оформить заказ</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="../First/Authorization">Войти</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="logo_and_serch_div">
+            <div class="logo_and_serch_div_inner">
+                <div class="logo_middle_div">
+                    <a href="../">Cloud Store</a>
+                </div>
+
+                <div class="search_middle_div" id="search">
+                    <input class="search_input" type="text" name="search" value="">
+                    <button type="button" class="button-search">
+                        Поиск
+                    </button>
+                </div>
+
+                <div class="basket_middle_div"><a href="">Корзина:</a>
+
+                </div>
+            </div>
+        </div>
+        <div class="nav_menu">
+            <ul>
+                <li><a href="../First/Liquids"><img class="menu_icons"
+                            src="../icons/menu-jidkost.svg"><span>Жидкости</span></a></li>
+                <li><a href="../First/Pods"><img class="menu_icons"
+                            src="../icons/menu-pod-sistemy.svg"><span>POD</span></a></li>
+                <li><a href="../First/Oneuse"><img class="menu_icons"
+                            src="../icons/menu-odnor.svg"><span>Одноразки</span></a></li>
+                <li><a href="../First/Vape"><img class="menu_icons"
+                            src="../icons/menu-parogenerator.png"><span>Вейпы</span></a></li>
+                <li><a href="../First/Pixl"><img class="menu_icons" src="../icons/menu-pixl.svg"><span>PIXL</span></a>
+                </li>
+                <li><a href="../First/Accessories"><img class="menu_icons"
+                            src="../icons/menu-zapchasti.svg"><span>Комплектующие</span></a></li>
+                <li><a href="../First/Hookah"><img class="menu_icons"
+                            src="../icons/menu-kalyan.svg"><span>Кальян</span></a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        @RenderBody()
+    </main>
+
+    <footer>
+        <div id="footer">
+
+            <div class="footer_inf">
+                <div class="infomenu">Информация</div>
+                <ul class="footer_navig_menu" id="infomenu">
+                    <li><a href="">Заказ и доставка</a></li>
+                    <li><a href="">Гарантия</a></li>
+                    <li><a href="">Дисконтная программа</a></li>
+                    <li><a href="">Рассрочка</a></li>
+                    <li><a href="">Акции</a></li>
+                    <li><a href="">Статьи и обзоры</a></li>
+                    <li><a href="">Новости и предложения</a></li>
+                    <li><a href="">Отзывы</a></li>
+                    <li><a href="">Договор оферты</a></li>
+                    <li><a href="" target="_blank">Политика в отношении обработки персональных данных</a></li>
+                    <li><a href="">Условия приобретения и правила использования подарочного сертификата</a></li>
+                </ul>
+            </div>
+
+
+            <div class="footer_prod">
+                <div class="prodmenu">Продукция</div>
+                <ul class="footer_navig_menu" id="prodmenu">
+                    <li><a href="../First/Vape">Вейпы</a></li>
+                    <li><a href="../First/Pods">POD-системы</a></li>
+                    <li><a href="../First/Accessories">Комплектующие</a></li>
+                    <li><a href="../First/Liquids">Жидкости</a></li>
+                    <li><a href="../First/Pixl">PIXL</a></li>
+                    <li><a href="../First/Hookah">Кальян</a></li>
+                    <li><a href="../First/Oneuse">Одноразки</a></li>
+                </ul>
+            </div>
+
+
+            <div class="footer_contact">
+                <div class="contactmenu">Контакты</div>
+                <div class="custom footer3">
+
+                    <div class="footer-phone_item">
+                        <div class="footer-phone_txt">МТС</div>
+                        <div class="footer-phone"><a href="tel:+375336621313">8 (033)662-13-13</a></div>
+                    </div>
+
+                    <div class="footer-phone_item">
+                        <div class="footer-phone_txt">A1</div>
+                        <div class="footer-phone"><a href="tel:+375296621313">8 (029)662-13-13</a></div>
+                    </div>
+
+                    <div class="footer-phone_item">
+                        <div class="footer-phone_txt">life</div>
+                        <div class="footer-phone"><a href="tel:+375256621313">8 (025)662-13-13</a></div>
+                    </div>
+
+                    <div class="footer-phone_link">
+                        <a href="#call" data-ebox="2">Перезвоните мне</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer_link">
+                <div class="social-icons">
+                    <a href="" target="_blank" rel="noopener noreferrer">
+                        <img src="../icons/icon-vk.svg" alt="SigaretNet Вконтакте"></a>
+
+                    <a href="" target="_blank" rel="noopener noreferrer">
+                        <img src="../icons/icon-faceb.svg" alt="SigaretNet Facebook"></a>
+
+                    <a href="" target="_blank" rel="noopener noreferrer">
+                        <img src="../icons/icon-insta.svg" alt="SigaretNet Instagram"></a>
+
+                    <a href="" target="_blank" rel="noopener noreferrer">
+                        <img src="../icons/icon-odnkl.svg" alt=""></a>
+
+                    <a href="" target="_blank" rel="noopener noreferrer">
+                        <img src="../icons/icon-yout.svg" alt="SigaretNet YouTube"></a>
+
+                    <a href="" target="_blank" rel="noopener noreferrer">
+                        <img src="../icons/icon-tg.svg" alt="Telegram SigaretNet"></a>
+
+                    <a href="" target="_blank" rel="noopener noreferrer">
+                        <img src="../icons/icon-twi.svg" alt="Twitter SigaretNet"></a>
+
+                    <a href="" target="_blank" rel="noopener noreferrer">
+                        <img src="../icons/icon-ttok.svg" alt="TikTok SigaretNet"></a>
+
+                </div>
+                <div class="props">ООО "БелВэйп" Беларусь, Минск ул. Собинова д.46, пом. 4 Дата регистрации 02.05.2019
+                    Номер в торговом реестре: 448318. УНП: 192813231. Регистрационный орган: Мингорисполком. Режим
+                    работы: с 9:00 до 21:00. Ежедневно</div>
+                <div class="payment">
+                    <img class="" alt="" data-src="" src="../icons/pas.svg">
+                    <img class="" alt="" data-src="" src="../icons/halva.svg">
+                    <img class="" alt="" data-src="" src="../icons/k.svg">
+                    <img class="" alt="" data-src="/images/paid/visa.svg" src="../icons/visa.svg">
+                    <img class="" alt="" data-src="/images/paid/master.svg" src="../icons/master.svg">
+                    <img class="" alt="" data-src="/images/paid/expresspay-logo.png" src="../icons/expresspay-logo.png">
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>

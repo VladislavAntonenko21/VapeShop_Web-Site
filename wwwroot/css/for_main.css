@@ -1,0 +1,348 @@
+.main_div{
+    background-color: #fff;
+    width: 100%;
+    float: left;
+    padding-bottom: 40px;
+}
+.reasons{
+    position: relative;
+    font-family: Montserrat;
+    float: left;
+    background: #282828;
+    color: #fff;
+    width: 100%;
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    display: block;
+    margin-bottom: 40px;
+}
+
+.title{
+    color: #fff;
+    font-size: 24px;
+    line-height: 29px;
+    margin-top: 60px;
+    margin-bottom: 35px;
+    text-align: left;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    font-family: Montserrat;
+    float: left;
+    width: 100%;
+}
+.reason_title{
+    color: #F11117;
+    line-height: 50px;
+}
+
+.main_title{
+    display: block;
+    font-size: 24px;
+    line-height: 29px;
+    color: #343434;
+    margin-bottom: 15px;
+    margin-top: 30px;
+    font-family: Montserrat;
+}
+.about_vape p{
+    float: left;
+    width: 100%;
+    font-family: 'Montserrat';
+    font-size: 15px;
+    line-height: 25px;
+    color: #686363;
+    margin: 0 0 10px;
+    text-align: justify;
+}
+
+.vape_image_div{
+    display: block;
+    padding-top: 60px;
+    width: 33.33333333%;
+    
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 35px;
+}
+
+.about_vape{
+    position: relative;
+}
+
+
+.benefits_title{
+    float: left;
+    margin-top: 30px;
+    margin-bottom: 25px;
+    font-size: 18px;
+    line-height: 22px;
+    color: #343434;
+    font-family: Montserrat;
+}
+.vybor-item_img{
+    position: relative;
+    margin-bottom: 20px;
+}
+.vybor-item_img_txt{
+    font-family: Montserrat;
+    position: absolute;
+    top: 55%;
+    color: #ffffff;
+    left: 7%;
+    right: 7%;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 20px;
+}
+.vybor-item_img img{
+    vertical-align: middle;
+    width: 100%;
+}
+.how_much{
+    width: 100%;
+    float: left;
+    text-align: justify;
+    margin-bottom: 20px;
+    font-size: 18px;
+    line-height: 22px;
+    color: #343434;
+    font-family: Montserrat;
+}
+.vybor{
+    float: left;
+    margin-bottom: 40px;
+}
+.benefits_list{
+    font-family: Montserrat;
+    overflow: hidden;
+}
+.benefits_list{
+    margin-bottom: 50px;
+    clear: both;
+    display: table;
+}
+.reason_discription{
+    font-family: Roboto;
+    text-align: justify;
+    font-size: 15px;
+    line-height: 25px;
+}
+.reasons_list{
+    overflow: hidden;
+}
+
+.list_item{
+    vertical-align: top;
+    width: 50%;
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+    font-size: small;
+}
+
+.main-txt-icons_item_img{
+    transition: ease .3s;
+}
+.main-txt-icons_item_img:hover{
+    transform: scale(1.1);
+}
+
+
+
+
+@media screen and (max-width: 1920px) and (min-width: 1501px) {
+    .main_div{
+        padding-inline: 8vw;
+    }
+    .vape_image_div img{
+        height: 100%;
+    }
+}
+@media screen and (max-width: 1499px) {
+    .main_div{
+        padding-inline: 15px;
+    }
+    
+}
+/* больше 885 */
+@media screen and (min-width: 885px) {
+    .reasons_list{
+        left: 33.33333333%;
+        float: left;
+        width: 66.66666667%;
+        position: relative;
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .main-txt-icons_item_img{
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        padding: 25px;
+        border: 1px solid #F11117;
+        text-align: center;
+        -webkit-border-radius: 50%;
+        border-radius: 50%;
+        -webkit-box-sizing: content-box;
+        box-sizing: content-box;
+        margin-bottom: 10px;
+    }
+    
+    .list_item{
+        float: left;
+        text-align: center;
+        width: 16.66666667%;
+        position: relative;
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+        color: #343434;
+        font-size: 13px;
+        line-height: 1.42857143;
+    }
+    
+    .vybor-item{
+        width: 33.33333333%;
+        float: left;
+        position: relative;
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+        font-family: Montserrat;
+    }
+    .reason_one, .reason_two{
+        position: relative;
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+        position: relative;
+        float: left;
+        width: 50%;
+        margin-bottom: 60px;
+    }
+    .reason_title{
+        font-size: 48px;
+    }
+    .main_title {
+        margin-top: 60px;
+    }
+    .vape_image_div{
+        right: 66.66666667%;
+        float: left;
+    }
+    
+}
+
+/* меньше 885 */
+@media screen and (max-width: 885px) { 
+    .reasons_list{
+        /* left: 33.33333333%; */
+        float: left;
+        /* width: 66.66666667%; */
+        position: relative;
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+        padding-bottom: 60px;
+    }
+    .main-txt-icons_item_img{
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        padding: 25px;
+        border: 1px solid #F11117;
+        text-align: center;
+        -webkit-border-radius: 50%;
+        border-radius: 50%;
+        -webkit-box-sizing: content-box;
+        box-sizing: content-box;
+        margin-bottom: 10px;
+    }
+    .reason_title{
+        font-size: 38px;
+    }
+    .vape_image_div {
+        display: block;
+        padding-top: 60px;
+        width: 33.33333333%;
+        position: relative;
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 35px;
+    }
+}
+/* когда меньше 800 */
+@media screen and (max-width: 800px){
+    .main_title{
+        margin-top: 35px;
+    }
+    .vybor-item_img_txt {
+        top:80%;
+    }
+    .title{
+        padding-right: 0px; 
+        padding-left: 0px;
+        margin-top: 40px;
+    }
+    .reason_title{
+        margin-top: 35px;
+    }
+    .reasons_list {
+        /* left: 33.33333333%; */
+        float: left;
+        /* width: 66.66666667%; */
+        position: relative;
+        min-height: 1px;
+        padding-right: 5px;
+        padding-left: 5px;
+        /* display: block; */
+    }
+    .main-txt-icons_item_img{
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        padding: 25px;
+        border: 1px solid #F11117;
+        text-align: center;
+        -webkit-border-radius: 50%;
+        border-radius: 50%;
+        -webkit-box-sizing: content-box;
+        box-sizing: content-box;
+        margin-bottom: 10px;
+    }
+    
+    .vape_image_div {
+        position: relative;
+    }
+    .list_item{
+        vertical-align: top;
+        width: 50%;
+        display: inline-block;
+        padding: 10px;
+        text-align: center;
+        font-size: small;
+    }
+    .benefits_list{
+        margin-bottom: 20px;
+    }
+    .benefits_title{
+        margin-top: 20px;
+    }
+    .vape_image_div img{
+        position: relative;
+        width: 80%;
+    }
+}
+/* когда меньше 600 */
+@media screen and (max-width: 600px){
+    .vape_image_div{
+        width: 100%;
+    }
+}
